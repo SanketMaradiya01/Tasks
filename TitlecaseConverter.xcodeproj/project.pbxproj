@@ -16,6 +16,8 @@
 		CCABF88A2B7366AC00C01AD8 /* TitlecaseConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCABF8892B7366AC00C01AD8 /* TitlecaseConverterTests.swift */; };
 		CCABF8942B7366AC00C01AD8 /* TitlecaseConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCABF8932B7366AC00C01AD8 /* TitlecaseConverterUITests.swift */; };
 		CCABF8962B7366AC00C01AD8 /* TitlecaseConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCABF8952B7366AC00C01AD8 /* TitlecaseConverterUITestsLaunchTests.swift */; };
+		CCABF8A92B73680600C01AD8 /* TitlecaseTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCABF8A72B73680600C01AD8 /* TitlecaseTVC.swift */; };
+		CCABF8AA2B73680600C01AD8 /* TitlecaseTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCABF8A82B73680600C01AD8 /* TitlecaseTVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		CCABF88F2B7366AC00C01AD8 /* TitlecaseConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TitlecaseConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCABF8932B7366AC00C01AD8 /* TitlecaseConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlecaseConverterUITests.swift; sourceTree = "<group>"; };
 		CCABF8952B7366AC00C01AD8 /* TitlecaseConverterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlecaseConverterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CCABF8A72B73680600C01AD8 /* TitlecaseTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlecaseTVC.swift; sourceTree = "<group>"; };
+		CCABF8A82B73680600C01AD8 /* TitlecaseTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitlecaseTVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		CCABF8712B7366AA00C01AD8 /* TitlecaseConverter */ = {
 			isa = PBXGroup;
 			children = (
+				CCABF8A22B73675900C01AD8 /* Titlecasecell */,
 				CCABF8722B7366AA00C01AD8 /* AppDelegate.swift */,
 				CCABF8742B7366AA00C01AD8 /* SceneDelegate.swift */,
 				CCABF8762B7366AA00C01AD8 /* ViewController.swift */,
@@ -125,6 +130,15 @@
 				CCABF8952B7366AC00C01AD8 /* TitlecaseConverterUITestsLaunchTests.swift */,
 			);
 			path = TitlecaseConverterUITests;
+			sourceTree = "<group>";
+		};
+		CCABF8A22B73675900C01AD8 /* Titlecasecell */ = {
+			isa = PBXGroup;
+			children = (
+				CCABF8A72B73680600C01AD8 /* TitlecaseTVC.swift */,
+				CCABF8A82B73680600C01AD8 /* TitlecaseTVC.xib */,
+			);
+			path = Titlecasecell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCABF8AA2B73680600C01AD8 /* TitlecaseTVC.xib in Resources */,
 				CCABF87F2B7366AC00C01AD8 /* LaunchScreen.storyboard in Resources */,
 				CCABF87C2B7366AC00C01AD8 /* Assets.xcassets in Resources */,
 				CCABF87A2B7366AA00C01AD8 /* Main.storyboard in Resources */,
@@ -258,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCABF8A92B73680600C01AD8 /* TitlecaseTVC.swift in Sources */,
 				CCABF8772B7366AA00C01AD8 /* ViewController.swift in Sources */,
 				CCABF8732B7366AA00C01AD8 /* AppDelegate.swift in Sources */,
 				CCABF8752B7366AA00C01AD8 /* SceneDelegate.swift in Sources */,
