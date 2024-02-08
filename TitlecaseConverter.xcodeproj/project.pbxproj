@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC4979162B74FF74005AAC48 /* ProgrammaticUIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4979152B74FF74005AAC48 /* ProgrammaticUIVC.swift */; };
 		CC5948F02B7491E1007546CB /* BLTNBoard in Frameworks */ = {isa = PBXBuildFile; productRef = CC5948EF2B7491E1007546CB /* BLTNBoard */; };
 		CC5948F32B749229007546CB /* BottomSheetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5948F22B749229007546CB /* BottomSheetVC.swift */; };
 		CCABF8732B7366AA00C01AD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCABF8722B7366AA00C01AD8 /* AppDelegate.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC4979152B74FF74005AAC48 /* ProgrammaticUIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticUIVC.swift; sourceTree = "<group>"; };
 		CC5948F22B749229007546CB /* BottomSheetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetVC.swift; sourceTree = "<group>"; };
 		CCABF86F2B7366AA00C01AD8 /* TitlecaseConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TitlecaseConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCABF8722B7366AA00C01AD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC4979142B74FF4B005AAC48 /* ProgrammaticUI */ = {
+			isa = PBXGroup;
+			children = (
+				CC4979152B74FF74005AAC48 /* ProgrammaticUIVC.swift */,
+			);
+			path = ProgrammaticUI;
+			sourceTree = "<group>";
+		};
 		CC5948ED2B749127007546CB /* BottomSheet */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +135,7 @@
 		CCABF8712B7366AA00C01AD8 /* TitlecaseConverter */ = {
 			isa = PBXGroup;
 			children = (
+				CC4979142B74FF4B005AAC48 /* ProgrammaticUI */,
 				CC5948ED2B749127007546CB /* BottomSheet */,
 				CCABF8AC2B7381E900C01AD8 /* StoryboardTask */,
 				CCABF8AB2B7381CE00C01AD8 /* TitleCaseTask */,
@@ -339,6 +350,7 @@
 				CCABF8732B7366AA00C01AD8 /* AppDelegate.swift in Sources */,
 				CC5948F32B749229007546CB /* BottomSheetVC.swift in Sources */,
 				CCABF8B42B7384F100C01AD8 /* UITaskTVC.swift in Sources */,
+				CC4979162B74FF74005AAC48 /* ProgrammaticUIVC.swift in Sources */,
 				CCABF8752B7366AA00C01AD8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
