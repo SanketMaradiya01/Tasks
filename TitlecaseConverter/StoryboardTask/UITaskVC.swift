@@ -28,6 +28,7 @@ struct Record : Codable{
 }
 class UITaskVC: UIViewController {
 
+    
     var Array = [Record]()
     
     @IBOutlet weak var tableView: UITableView!
@@ -43,14 +44,14 @@ class UITaskVC: UIViewController {
         
         URLSession.shared.dataTask(with: request){data, response, error in
             if error != nil {
-                print("Error")
+                print("Error in nill")
             }
             if let data = data{
                 do{
                     let Data = try JSONDecoder().decode(TestData.self, from: data)
                     if Data.Status == 200 {
-                        var models = Data.data
-                        var model = models!.Records
+                        let models = Data.data
+                        let model = models!.Records
                         self.Array = model!                    }
                     print(Data)
                 }catch{
@@ -63,6 +64,7 @@ class UITaskVC: UIViewController {
         }.resume()
     }
 }
+@available(iOS 15.0, *)
 extension UITaskVC : UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return Array.count
@@ -73,9 +75,18 @@ extension UITaskVC : UITableViewDelegate, UITableViewDataSource{
         cell.MainImg.sd_setImage(with: Image)
         cell.TitleLabel.text = Array[indexPath.row].title ?? ""
         cell.SDLabel.text = Array[indexPath.row].shortDescription ?? ""
-        cell.TVLabel.text = " ₹\(Array[indexPath.row].totalValue ?? 0)"
-        cell.CVLabel.text = " ₹\(Array[indexPath.row].collectedValue ?? 0)"
+        cell.TVLabel.text = "₹\(Array[indexPath.row].totalValue ?? 0)"
+        cell.CVLabel.text = "₹\(Array[indexPath.row].collectedValue ?? 0)"
         return cell
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "BottomSheetVC") as! BottomSheetVC
+        vc.sheetData = Array[indexPath.row]
+//        if let sheet = vc.sheetPresentationController{
+//
+//        }
+        vc.modalPresentationStyle = .overFullScreen
+        self.present(vc, animated: true, completion: nil)
     }
 //    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
 //        return 60

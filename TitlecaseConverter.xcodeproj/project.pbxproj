@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC5948F02B7491E1007546CB /* BLTNBoard in Frameworks */ = {isa = PBXBuildFile; productRef = CC5948EF2B7491E1007546CB /* BLTNBoard */; };
+		CC5948F32B749229007546CB /* BottomSheetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5948F22B749229007546CB /* BottomSheetVC.swift */; };
 		CCABF8732B7366AA00C01AD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCABF8722B7366AA00C01AD8 /* AppDelegate.swift */; };
 		CCABF8752B7366AA00C01AD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCABF8742B7366AA00C01AD8 /* SceneDelegate.swift */; };
 		CCABF8772B7366AA00C01AD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCABF8762B7366AA00C01AD8 /* ViewController.swift */; };
@@ -43,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC5948F22B749229007546CB /* BottomSheetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetVC.swift; sourceTree = "<group>"; };
 		CCABF86F2B7366AA00C01AD8 /* TitlecaseConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TitlecaseConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCABF8722B7366AA00C01AD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCABF8742B7366AA00C01AD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCABF8BA2B73939800C01AD8 /* SDWebImageMapKit in Frameworks */,
+				CC5948F02B7491E1007546CB /* BLTNBoard in Frameworks */,
 				CCABF8B82B73939800C01AD8 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +94,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC5948ED2B749127007546CB /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				CC5948F22B749229007546CB /* BottomSheetVC.swift */,
+			);
+			path = BottomSheet;
+			sourceTree = "<group>";
+		};
 		CCABF8662B7366AA00C01AD8 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +125,7 @@
 		CCABF8712B7366AA00C01AD8 /* TitlecaseConverter */ = {
 			isa = PBXGroup;
 			children = (
+				CC5948ED2B749127007546CB /* BottomSheet */,
 				CCABF8AC2B7381E900C01AD8 /* StoryboardTask */,
 				CCABF8AB2B7381CE00C01AD8 /* TitleCaseTask */,
 				CCABF8722B7366AA00C01AD8 /* AppDelegate.swift */,
@@ -197,6 +210,7 @@
 			packageProductDependencies = (
 				CCABF8B72B73939800C01AD8 /* SDWebImage */,
 				CCABF8B92B73939800C01AD8 /* SDWebImageMapKit */,
+				CC5948EF2B7491E1007546CB /* BLTNBoard */,
 			);
 			productName = TitlecaseConverter;
 			productReference = CCABF86F2B7366AA00C01AD8 /* TitlecaseConverter.app */;
@@ -272,6 +286,7 @@
 			mainGroup = CCABF8662B7366AA00C01AD8;
 			packageReferences = (
 				CCABF8B62B73939800C01AD8 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				CC5948EE2B7491E1007546CB /* XCRemoteSwiftPackageReference "BulletinBoard" */,
 			);
 			productRefGroup = CCABF8702B7366AA00C01AD8 /* Products */;
 			projectDirPath = "";
@@ -322,6 +337,7 @@
 				CCABF8772B7366AA00C01AD8 /* ViewController.swift in Sources */,
 				CCABF8B02B7382D800C01AD8 /* UITaskVC.swift in Sources */,
 				CCABF8732B7366AA00C01AD8 /* AppDelegate.swift in Sources */,
+				CC5948F32B749229007546CB /* BottomSheetVC.swift in Sources */,
 				CCABF8B42B7384F100C01AD8 /* UITaskTVC.swift in Sources */,
 				CCABF8752B7366AA00C01AD8 /* SceneDelegate.swift in Sources */,
 			);
@@ -507,6 +523,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -534,6 +551,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -661,6 +679,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		CC5948EE2B7491E1007546CB /* XCRemoteSwiftPackageReference "BulletinBoard" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alexaubry/BulletinBoard.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 		CCABF8B62B73939800C01AD8 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
@@ -672,6 +698,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		CC5948EF2B7491E1007546CB /* BLTNBoard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC5948EE2B7491E1007546CB /* XCRemoteSwiftPackageReference "BulletinBoard" */;
+			productName = BLTNBoard;
+		};
 		CCABF8B72B73939800C01AD8 /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = CCABF8B62B73939800C01AD8 /* XCRemoteSwiftPackageReference "SDWebImage" */;
