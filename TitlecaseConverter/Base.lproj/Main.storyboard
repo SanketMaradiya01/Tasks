@@ -329,7 +329,7 @@
         <!--ProgrammaticUIVC-->
         <scene sceneID="cJ7-kb-CLA">
             <objects>
-                <viewController storyboardIdentifier="ProgrammaticUIVC" id="mma-kk-FlX" customClass="ProgrammaticUIVC" customModule="TitlecaseConverter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProgrammaticUIVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mma-kk-FlX" customClass="ProgrammaticUIVC" customModule="TitlecaseConverter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsj-8c-5jU">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

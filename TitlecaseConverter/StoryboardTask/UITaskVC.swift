@@ -26,9 +26,14 @@ struct Record : Codable{
     let startDate, endDate: String?
     let mainImageURL: String?
 }
+
+protocol UITaskVCDelegate: NSObjectProtocol {
+    func didRecievedData(models: [Record])
+}
+
 class UITaskVC: UIViewController {
 
-    
+    var delegate : UITaskVCDelegate?
     var Array = [Record]()
     
     @IBOutlet weak var tableView: UITableView!
@@ -42,7 +47,7 @@ class UITaskVC: UIViewController {
         
         let request = URLRequest(url: url)
         
-        URLSession.shared.dataTask(with: request){data, response, error in
+        URLSession.shared.dataTask(with: request){ [self]data, response, error in
             if error != nil {
                 print("Error in nill")
             }
@@ -50,15 +55,17 @@ class UITaskVC: UIViewController {
                 do{
                     let Data = try JSONDecoder().decode(TestData.self, from: data)
                     if Data.Status == 200 {
-                        let models = Data.data
-                        let model = models!.Records
-                        self.Array = model!                    }
+                        var models = Data.data
+                        var model = models!.Records
+                        self.Array = model!
+                        self.delegate?.didRecievedData(models: self.Array)
+                    }
                     print(Data)
                 }catch{
                     print("Error in Do Block")
                 }
                 DispatchQueue.main.async {
-                    self.tableView.reloadData()
+                    self.tableView?.reloadData()
                 }
             }
         }.resume()

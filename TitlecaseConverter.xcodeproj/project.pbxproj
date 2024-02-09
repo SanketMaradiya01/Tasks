@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BCB403AE9953B3F24FE5247 /* Pods_TitlecaseConverterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A943B88F3EC380728D051E8 /* Pods_TitlecaseConverterTests.framework */; };
 		CC4979162B74FF74005AAC48 /* ProgrammaticUIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4979152B74FF74005AAC48 /* ProgrammaticUIVC.swift */; };
 		CC5948F02B7491E1007546CB /* BLTNBoard in Frameworks */ = {isa = PBXBuildFile; productRef = CC5948EF2B7491E1007546CB /* BLTNBoard */; };
 		CC5948F32B749229007546CB /* BottomSheetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5948F22B749229007546CB /* BottomSheetVC.swift */; };
@@ -26,6 +27,9 @@
 		CCABF8B52B7384F100C01AD8 /* UITaskTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCABF8B32B7384F100C01AD8 /* UITaskTVC.xib */; };
 		CCABF8B82B73939800C01AD8 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = CCABF8B72B73939800C01AD8 /* SDWebImage */; };
 		CCABF8BA2B73939800C01AD8 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CCABF8B92B73939800C01AD8 /* SDWebImageMapKit */; };
+		CCF4E2482B75D8FB00AB4809 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF4E2472B75D8FB00AB4809 /* TableViewCell.swift */; };
+		ED3F4B60B126A4F0CCBF76B2 /* Pods_TitlecaseConverter_TitlecaseConverterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C67537CFA9A57A141AC1CFD /* Pods_TitlecaseConverter_TitlecaseConverterUITests.framework */; };
+		FDB0F6AF71E5EAC37FE327D6 /* Pods_TitlecaseConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5FE3AEC231975F70E7C1EC /* Pods_TitlecaseConverter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C5FE3AEC231975F70E7C1EC /* Pods_TitlecaseConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TitlecaseConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31396EC733CEF3572F7941AE /* Pods-TitlecaseConverter-TitlecaseConverterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TitlecaseConverter-TitlecaseConverterUITests.release.xcconfig"; path = "Target Support Files/Pods-TitlecaseConverter-TitlecaseConverterUITests/Pods-TitlecaseConverter-TitlecaseConverterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4CDF8B35AC70937C9159F4DD /* Pods-TitlecaseConverter-TitlecaseConverterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TitlecaseConverter-TitlecaseConverterUITests.debug.xcconfig"; path = "Target Support Files/Pods-TitlecaseConverter-TitlecaseConverterUITests/Pods-TitlecaseConverter-TitlecaseConverterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		56482E1374162FD3A937FE3F /* Pods-TitlecaseConverterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TitlecaseConverterTests.release.xcconfig"; path = "Target Support Files/Pods-TitlecaseConverterTests/Pods-TitlecaseConverterTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A943B88F3EC380728D051E8 /* Pods_TitlecaseConverterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TitlecaseConverterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C67537CFA9A57A141AC1CFD /* Pods_TitlecaseConverter_TitlecaseConverterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TitlecaseConverter_TitlecaseConverterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32672A18C40A4C5E072FA96 /* Pods-TitlecaseConverter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TitlecaseConverter.release.xcconfig"; path = "Target Support Files/Pods-TitlecaseConverter/Pods-TitlecaseConverter.release.xcconfig"; sourceTree = "<group>"; };
+		B1FBDF09C7A83D53DC5BF246 /* Pods-TitlecaseConverterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TitlecaseConverterTests.debug.xcconfig"; path = "Target Support Files/Pods-TitlecaseConverterTests/Pods-TitlecaseConverterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC2671821F76182C50F31AD2 /* Pods-TitlecaseConverter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TitlecaseConverter.debug.xcconfig"; path = "Target Support Files/Pods-TitlecaseConverter/Pods-TitlecaseConverter.debug.xcconfig"; sourceTree = "<group>"; };
 		CC4979152B74FF74005AAC48 /* ProgrammaticUIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticUIVC.swift; sourceTree = "<group>"; };
 		CC5948F22B749229007546CB /* BottomSheetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetVC.swift; sourceTree = "<group>"; };
 		CCABF86F2B7366AA00C01AD8 /* TitlecaseConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TitlecaseConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +79,7 @@
 		CCABF8AF2B7382D800C01AD8 /* UITaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITaskVC.swift; sourceTree = "<group>"; };
 		CCABF8B22B7384F100C01AD8 /* UITaskTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITaskTVC.swift; sourceTree = "<group>"; };
 		CCABF8B32B7384F100C01AD8 /* UITaskTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITaskTVC.xib; sourceTree = "<group>"; };
+		CCF4E2472B75D8FB00AB4809 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +90,7 @@
 				CCABF8BA2B73939800C01AD8 /* SDWebImageMapKit in Frameworks */,
 				CC5948F02B7491E1007546CB /* BLTNBoard in Frameworks */,
 				CCABF8B82B73939800C01AD8 /* SDWebImage in Frameworks */,
+				FDB0F6AF71E5EAC37FE327D6 /* Pods_TitlecaseConverter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BCB403AE9953B3F24FE5247 /* Pods_TitlecaseConverterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,16 +106,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED3F4B60B126A4F0CCBF76B2 /* Pods_TitlecaseConverter_TitlecaseConverterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D707C62A5AFDF0DAFF8085D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C5FE3AEC231975F70E7C1EC /* Pods_TitlecaseConverter.framework */,
+				6C67537CFA9A57A141AC1CFD /* Pods_TitlecaseConverter_TitlecaseConverterUITests.framework */,
+				5A943B88F3EC380728D051E8 /* Pods_TitlecaseConverterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94090AAF790E8823721DC47A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC2671821F76182C50F31AD2 /* Pods-TitlecaseConverter.debug.xcconfig */,
+				A32672A18C40A4C5E072FA96 /* Pods-TitlecaseConverter.release.xcconfig */,
+				4CDF8B35AC70937C9159F4DD /* Pods-TitlecaseConverter-TitlecaseConverterUITests.debug.xcconfig */,
+				31396EC733CEF3572F7941AE /* Pods-TitlecaseConverter-TitlecaseConverterUITests.release.xcconfig */,
+				B1FBDF09C7A83D53DC5BF246 /* Pods-TitlecaseConverterTests.debug.xcconfig */,
+				56482E1374162FD3A937FE3F /* Pods-TitlecaseConverterTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CC4979142B74FF4B005AAC48 /* ProgrammaticUI */ = {
 			isa = PBXGroup;
 			children = (
 				CC4979152B74FF74005AAC48 /* ProgrammaticUIVC.swift */,
+				CCF4E2472B75D8FB00AB4809 /* TableViewCell.swift */,
 			);
 			path = ProgrammaticUI;
 			sourceTree = "<group>";
@@ -119,6 +161,8 @@
 				CCABF8882B7366AC00C01AD8 /* TitlecaseConverterTests */,
 				CCABF8922B7366AC00C01AD8 /* TitlecaseConverterUITests */,
 				CCABF8702B7366AA00C01AD8 /* Products */,
+				94090AAF790E8823721DC47A /* Pods */,
+				3D707C62A5AFDF0DAFF8085D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -209,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCABF8992B7366AC00C01AD8 /* Build configuration list for PBXNativeTarget "TitlecaseConverter" */;
 			buildPhases = (
+				CAC1B28E0183DC6119D9DC40 /* [CP] Check Pods Manifest.lock */,
 				CCABF86B2B7366AA00C01AD8 /* Sources */,
 				CCABF86C2B7366AA00C01AD8 /* Frameworks */,
 				CCABF86D2B7366AA00C01AD8 /* Resources */,
@@ -231,6 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCABF89C2B7366AC00C01AD8 /* Build configuration list for PBXNativeTarget "TitlecaseConverterTests" */;
 			buildPhases = (
+				D37C451D664774E5AE2F3D70 /* [CP] Check Pods Manifest.lock */,
 				CCABF8812B7366AC00C01AD8 /* Sources */,
 				CCABF8822B7366AC00C01AD8 /* Frameworks */,
 				CCABF8832B7366AC00C01AD8 /* Resources */,
@@ -249,6 +295,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCABF89F2B7366AC00C01AD8 /* Build configuration list for PBXNativeTarget "TitlecaseConverterUITests" */;
 			buildPhases = (
+				EFCDB417A31C26EC648343FB /* [CP] Check Pods Manifest.lock */,
 				CCABF88B2B7366AC00C01AD8 /* Sources */,
 				CCABF88C2B7366AC00C01AD8 /* Frameworks */,
 				CCABF88D2B7366AC00C01AD8 /* Resources */,
@@ -339,6 +386,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CAC1B28E0183DC6119D9DC40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TitlecaseConverter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D37C451D664774E5AE2F3D70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TitlecaseConverterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFCDB417A31C26EC648343FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TitlecaseConverter-TitlecaseConverterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CCABF86B2B7366AA00C01AD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -347,6 +463,7 @@
 				CCABF8A92B73680600C01AD8 /* TitlecaseTVC.swift in Sources */,
 				CCABF8772B7366AA00C01AD8 /* ViewController.swift in Sources */,
 				CCABF8B02B7382D800C01AD8 /* UITaskVC.swift in Sources */,
+				CCF4E2482B75D8FB00AB4809 /* TableViewCell.swift in Sources */,
 				CCABF8732B7366AA00C01AD8 /* AppDelegate.swift in Sources */,
 				CC5948F32B749229007546CB /* BottomSheetVC.swift in Sources */,
 				CCABF8B42B7384F100C01AD8 /* UITaskTVC.swift in Sources */,
@@ -523,6 +640,7 @@
 		};
 		CCABF89A2B7366AC00C01AD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC2671821F76182C50F31AD2 /* Pods-TitlecaseConverter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -551,6 +669,7 @@
 		};
 		CCABF89B2B7366AC00C01AD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A32672A18C40A4C5E072FA96 /* Pods-TitlecaseConverter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -579,6 +698,7 @@
 		};
 		CCABF89D2B7366AC00C01AD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1FBDF09C7A83D53DC5BF246 /* Pods-TitlecaseConverterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -598,6 +718,7 @@
 		};
 		CCABF89E2B7366AC00C01AD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56482E1374162FD3A937FE3F /* Pods-TitlecaseConverterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -617,6 +738,7 @@
 		};
 		CCABF8A02B7366AC00C01AD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CDF8B35AC70937C9159F4DD /* Pods-TitlecaseConverter-TitlecaseConverterUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -634,6 +756,7 @@
 		};
 		CCABF8A12B7366AC00C01AD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31396EC733CEF3572F7941AE /* Pods-TitlecaseConverter-TitlecaseConverterUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
