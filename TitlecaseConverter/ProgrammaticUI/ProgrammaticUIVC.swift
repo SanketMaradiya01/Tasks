@@ -109,6 +109,8 @@ extension ProgrammaticUIVC : UITableViewDelegate , UITableViewDataSource {
         cell.Image!.sd_setImage(with: Image)
         cell.FundNumL!.text = "₹\(TotalProgData[indexPath.row].collectedValue ?? 0)"
         cell.GoalNumL!.text = "₹\(TotalProgData[indexPath.row].totalValue ?? 0)"
+        cell.TitleLabel!.text = TotalProgData[indexPath.row].title ?? ""
+        cell.DescriptionLabel!.text = TotalProgData[indexPath.row].shortDescription ?? ""
         return cell
     }
     

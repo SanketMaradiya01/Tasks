@@ -29,7 +29,6 @@
 		CCABF8BA2B73939800C01AD8 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CCABF8B92B73939800C01AD8 /* SDWebImageMapKit */; };
 		CCF4E2482B75D8FB00AB4809 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF4E2472B75D8FB00AB4809 /* TableViewCell.swift */; };
 		ED3F4B60B126A4F0CCBF76B2 /* Pods_TitlecaseConverter_TitlecaseConverterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C67537CFA9A57A141AC1CFD /* Pods_TitlecaseConverter_TitlecaseConverterUITests.framework */; };
-		FDB0F6AF71E5EAC37FE327D6 /* Pods_TitlecaseConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5FE3AEC231975F70E7C1EC /* Pods_TitlecaseConverter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,7 +89,6 @@
 				CCABF8BA2B73939800C01AD8 /* SDWebImageMapKit in Frameworks */,
 				CC5948F02B7491E1007546CB /* BLTNBoard in Frameworks */,
 				CCABF8B82B73939800C01AD8 /* SDWebImage in Frameworks */,
-				FDB0F6AF71E5EAC37FE327D6 /* Pods_TitlecaseConverter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +131,6 @@
 				B1FBDF09C7A83D53DC5BF246 /* Pods-TitlecaseConverterTests.debug.xcconfig */,
 				56482E1374162FD3A937FE3F /* Pods-TitlecaseConverterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
